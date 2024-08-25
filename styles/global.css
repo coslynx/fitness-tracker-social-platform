@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Helvetica:wght@400;700&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f3f4f6; /* Light gray background */
+    color: #111827; /* Dark gray text */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #3b82f6; /* Primary color on hover */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #1d4ed8; /* Primary header color */
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.footer {
+    background-color: #1d4ed8; /* Primary footer color */
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    background-color: #3b82f6; /* Button primary color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #2563eb; /* Darken on hover */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.input {
+    border: 1px solid #d1d5db; /* Light gray border */
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.error-message {
+    color: #ef4444; /* Red error color */
+    font-size: 0.875rem;
+}
+
+.chart-container {
+    margin: 20px 0;
+}
+
+.list-disc {
+    padding-left: 20px;
+}
+
+.list-disc li {
+    margin: 5px 0;
+}
